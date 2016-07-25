@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5DAA4710-79B7-444F-9500-E20536DD5D32}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>HolaMundoIrrlicht</RootNamespace>
+    <ProjectName>HIDE</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\UNIVERSIDAD\irrlicht-1.8.3\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>D:\UNIVERSIDAD\irrlicht-1.8.3\lib\Win32-visualstudio;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\RepositorioABP\Codigo\HIDE\HIDE\irrKlang;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\RepositorioABP\Codigo\HIDE\HIDE\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>./lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Box2D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>./lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>irrKlang.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ArbolDecisionEstadoPrueba.cpp" />
+    <ClCompile Include="Arma.cpp" />
+    <ClCompile Include="Consumible.cpp" />
+    <ClCompile Include="CreadorMapa.cpp" />
+    <ClCompile Include="EntidadInteractuable.cpp" />
+    <ClCompile Include="EntidadInterpolable.cpp" />
+    <ClCompile Include="EntidadJuego.cpp" />
+    <ClCompile Include="Escena.cpp" />
+    <ClCompile Include="EscenaConEntidad.cpp" />
+    <ClCompile Include="EscenaCreditos.cpp" />
+    <ClCompile Include="EscenaGameOver.cpp" />
+    <ClCompile Include="EscenaMenuPrincipal.cpp" />
+    <ClCompile Include="EscenaOpciones.cpp" />
+    <ClCompile Include="EscritorFicheros.cpp" />
+    <ClCompile Include="Estado.cpp" />
+    <ClCompile Include="Estado_Alerta.cpp" />
+    <ClCompile Include="Estado_Ataque.cpp" />
+    <ClCompile Include="Estado_Exploracion.cpp" />
+    <ClCompile Include="Estado_Global.cpp" />
+    <ClCompile Include="Estado_Grupo.cpp" />
+    <ClCompile Include="Estado_Huir.cpp" />
+    <ClCompile Include="FachadaMotorFisico.cpp" />
+    <ClCompile Include="FachadaMotorGrafico.cpp" />
+    <ClCompile Include="GeneradorInfectados.cpp" />
+    <ClCompile Include="GeneradorObjetos.cpp" />
+    <ClCompile Include="GestorEntidadesJuego.cpp" />
+    <ClCompile Include="GestorEscenas.cpp" />
+    <ClCompile Include="GestorEventosEntrada.cpp" />
+    <ClCompile Include="Grafo.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="Infectado.cpp" />
+    <ClCompile Include="Infectado2.cpp" />
+    <ClCompile Include="LanzadorRayCast.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MaquinaEstadosFinita.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MenuConstruccion.cpp" />
+    <ClCompile Include="MenuMochila.cpp" />
+    <ClCompile Include="MenuOpciones.cpp" />
+    <ClCompile Include="Mochila.cpp" />
+    <ClCompile Include="Nodo.cpp" />
+    <ClCompile Include="Objeto.cpp" />
+    <ClCompile Include="ObjetoSimple.cpp" />
+    <ClCompile Include="PlanificadorCaminos.cpp" />
+    <ClCompile Include="Protagonista.cpp" />
+    <ClCompile Include="Publicador.cpp" />
+    <ClCompile Include="PuntoGeneracionObjetos.cpp" />
+    <ClCompile Include="RaycastColocaTrampa.cpp" />
+    <ClCompile Include="RaycastVeoJugador.cpp" />
+    <ClCompile Include="RaycastVeoPosicion.cpp" />
+    <ClCompile Include="Reloj.cpp" />
+    <ClCompile Include="Suscriptor.cpp" />
+    <ClCompile Include="Trampa.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArbolDecisionEstadoPrueba.h" />
+    <ClInclude Include="Arma.h" />
+    <ClInclude Include="Constantes.h" />
+    <ClInclude Include="Consumible.h" />
+    <ClInclude Include="Crafteos.h" />
+    <ClInclude Include="CreadorMapa.h" />
+    <ClInclude Include="Decision.h" />
+    <ClInclude Include="EntidadInteractuable.h" />
+    <ClInclude Include="EntidadInterpolable.h" />
+    <ClInclude Include="EntidadJuego.h" />
+    <ClInclude Include="Escena.h" />
+    <ClInclude Include="EscenaConEntidad.h" />
+    <ClInclude Include="EscenaCreditos.h" />
+    <ClInclude Include="EscenaGameOver.h" />
+    <ClInclude Include="EscenaMenuPrincipal.h" />
+    <ClInclude Include="EscenaOpciones.h" />
+    <ClInclude Include="EscritorFicheros.h" />
+    <ClInclude Include="Estado.h" />
+    <ClInclude Include="Estado_Alerta.h" />
+    <ClInclude Include="Estado_Ataque.h" />
+    <ClInclude Include="Estado_Exploracion.h" />
+    <ClInclude Include="Estado_Global.h" />
+    <ClInclude Include="Estado_Grupo.h" />
+    <ClInclude Include="Estado_Huir.h" />
+    <ClInclude Include="FachadaMotorFisico.h" />
+    <ClInclude Include="FachadaMotorGrafico.h" />
+    <ClInclude Include="GeneradorInfectados.h" />
+    <ClInclude Include="GeneradorObjetos.h" />
+    <ClInclude Include="GestorEntidadesJuego.h" />
+    <ClInclude Include="GestorEscenas.h" />
+    <ClInclude Include="GestorEventosEntrada.h" />
+    <ClInclude Include="Grafo.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="Infectado.h" />
+    <ClInclude Include="Infectado2.h" />
+    <ClInclude Include="LanzadorRayCast.h" />
+    <ClInclude Include="ListaAccionesConcretas.h" />
+    <ClInclude Include="ListaDecisionesConcretas.h" />
+    <ClInclude Include="MaquinaEstadosFinita.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MenuConstruccion.h" />
+    <ClInclude Include="MenuMochila.h" />
+    <ClInclude Include="MenuOpciones.h" />
+    <ClInclude Include="Mochila.h" />
+    <ClInclude Include="Nodo.h" />
+    <ClInclude Include="NodoArbolDecision.h" />
+    <ClInclude Include="Objeto.h" />
+    <ClInclude Include="ObjetoSimple.h" />
+    <ClInclude Include="PlanificadorCaminos.h" />
+    <ClInclude Include="Protagonista.h" />
+    <ClInclude Include="Publicador.h" />
+    <ClInclude Include="PuntoGeneracionObjetos.h" />
+    <ClInclude Include="RaycastColocaTrampa.h" />
+    <ClInclude Include="RaycastVeoJugador.h" />
+    <ClInclude Include="RaycastVeoPosicion.h" />
+    <ClInclude Include="Reloj.h" />
+    <ClInclude Include="Suscriptor.h" />
+    <ClInclude Include="Trampa.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\mapas\mapa1.txt" />
+    <Text Include="assets\mapas\mapa2.txt" />
+    <Text Include="assets\mapas\mapaArreglado.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

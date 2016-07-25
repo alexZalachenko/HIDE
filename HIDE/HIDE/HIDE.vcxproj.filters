@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\escenas">
+      <UniqueIdentifier>{9c392118-395f-4cb8-89a1-6c2137742e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\escenas">
+      <UniqueIdentifier>{61d01d76-a09b-4fe4-98c0-c33234b012f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\patron observer">
+      <UniqueIdentifier>{9095565b-8cb5-45a2-988b-c493864059ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\patron observer">
+      <UniqueIdentifier>{00cc92f9-4bb0-4bd8-a42b-d19caa40cf27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\entidades">
+      <UniqueIdentifier>{ee08d114-f35f-4ea0-a10a-303ba2795dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\entidades">
+      <UniqueIdentifier>{f469550a-6e4e-428a-b7c5-01f8676bd313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\utilidades">
+      <UniqueIdentifier>{34422f7e-8a0d-4dc8-9b87-4c7cf7eac768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\utilidades">
+      <UniqueIdentifier>{dd6e8df5-5072-4d02-9e19-eb95e50155e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\entidades\entidadNoFinal">
+      <UniqueIdentifier>{051c92e2-6798-4afb-8662-365b26f2fe9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\entidades\entidadNoFinal">
+      <UniqueIdentifier>{a48677e5-2d7c-4710-8279-54dc40ceb40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\mef">
+      <UniqueIdentifier>{cd838105-f054-4bbd-a610-98fdfed9e332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\mef">
+      <UniqueIdentifier>{7ddacaf5-e90d-46c5-897d-6ef438d17936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\planificadorCaminos">
+      <UniqueIdentifier>{1840863a-6e95-4948-89ec-8a31cbb2a55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\planificadorCaminos">
+      <UniqueIdentifier>{9b3db9e3-2bd6-49cc-a126-5da9f85ff54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\arbolDecision">
+      <UniqueIdentifier>{5e158f78-d825-4ffa-88a8-2ae047c031b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\arbolDecision">
+      <UniqueIdentifier>{6db8c4d9-8fdd-4d60-aa7c-66a04fef0758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\menus">
+      <UniqueIdentifier>{ce8f7e6a-c0a4-4347-ac36-3483ee29b25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\menus">
+      <UniqueIdentifier>{559f63d7-d3da-4386-8eb8-3d1d1864194f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\entidades\objetos">
+      <UniqueIdentifier>{e2b2d079-7692-433e-968e-27c69c3b5239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\entidades\personajes">
+      <UniqueIdentifier>{4b68bbb9-0d85-40ac-8445-d4160efae461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\entidades\personajes">
+      <UniqueIdentifier>{2d5f3a9e-802f-4ff2-bd25-210781ded5e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\entidades\objetos">
+      <UniqueIdentifier>{701ad0ed-ef8b-4d2d-8163-2575faa8b9c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\generadorObjetos">
+      <UniqueIdentifier>{67d6ba27-56d9-4b02-89c9-34317336af33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\generadorObjetos">
+      <UniqueIdentifier>{a90a74d7-45fb-4c06-9203-c276f4c45753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\utilidades\raycast">
+      <UniqueIdentifier>{d5dfc4a9-a9bc-44f5-98c0-d47f070f705d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\utilidades\raycast">
+      <UniqueIdentifier>{f2cb0908-cfce-4086-be68-ae1f35f61985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{71598b32-65af-4195-a04b-294dbe7d5086}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Escena.cpp">
+      <Filter>Archivos de código fuente\escenas</Filter>
+    </ClCompile>
+    <ClCompile Include="GestorEscenas.cpp">
+      <Filter>Archivos de código fuente\escenas</Filter>
+    </ClCompile>
+    <ClCompile Include="Publicador.cpp">
+      <Filter>Archivos de código fuente\patron observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Suscriptor.cpp">
+      <Filter>Archivos de código fuente\patron observer</Filter>
+    </ClCompile>
+    <ClCompile Include="FachadaMotorGrafico.cpp">
+      <Filter>Archivos de código fuente\utilidades</Filter>
+    </ClCompile>
+    <ClCompile Include="GestorEventosEntrada.cpp">
+      <Filter>Archivos de código fuente\utilidades</Filter>
+    </ClCompile>
+    <ClCompile Include="Reloj.cpp">
+      <Filter>Archivos de código fuente\utilidades</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaConEntidad.cpp">
+      <Filter>Archivos de código fuente\escenas</Filter>
+    </ClCompile>
+    <ClCompile Include="FachadaMotorFisico.cpp">
+      <Filter>Archivos de código fuente\utilidades</Filter>
+    </ClCompile>
+    <ClCompile Include="Mochila.cpp">
+      <Filter>Archivos de código fuente\entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="EntidadInteractuable.cpp">
+      <Filter>Archivos de código fuente\entidades\entidadNoFinal</Filter>
+    </ClCompile>
+    <ClCompile Include="EntidadInterpolable.cpp">
+      <Filter>Archivos de código fuente\entidades\entidadNoFinal</Filter>
+    </ClCompile>
+    <ClCompile Include="EntidadJuego.cpp">
+      <Filter>Archivos de código fuente\entidades\entidadNoFinal</Filter>
+    </ClCompile>
+    <ClCompile Include="Objeto.cpp">
+      <Filter>Archivos de código fuente\entidades\entidadNoFinal</Filter>
+    </ClCompile>
+    <ClCompile Include="Estado.cpp">
+      <Filter>Archivos de código fuente\mef</Filter>
+    </ClCompile>
+    <ClCompile Include="Estado_Alerta.cpp">
+      <Filter>Archivos de código fuente\mef</Filter>
+    </ClCompile>
+    <ClCompile Include="Estado_Ataque.cpp">
+      <Filter>Archivos de código fuente\mef</Filter>
+    </ClCompile>
+    <ClCompile Include="Estado_Exploracion.cpp">
+      <Filter>Archivos de código fuente\mef</Filter>
+    </ClCompile>
+    <ClCompile Include="Estado_Global.cpp">
+      <Filter>Archivos de código fuente\mef</Filter>
+    </ClCompile>
+    <ClCompile Include="Estado_Grupo.cpp">
+      <Filter>Archivos de código fuente\mef</Filter>
+    </ClCompile>
+    <ClCompile Include="Estado_Huir.cpp">
+      <Filter>Archivos de código fuente\mef</Filter>
+    </ClCompile>
+    <ClCompile Include="MaquinaEstadosFinita.cpp">
+      <Filter>Archivos de código fuente\mef</Filter>
+    </ClCompile>
+    <ClCompile Include="Grafo.cpp">
+      <Filter>Archivos de código fuente\planificadorCaminos</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodo.cpp">
+      <Filter>Archivos de código fuente\planificadorCaminos</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanificadorCaminos.cpp">
+      <Filter>Archivos de código fuente\planificadorCaminos</Filter>
+    </ClCompile>
+    <ClCompile Include="CreadorMapa.cpp">
+      <Filter>Archivos de código fuente\utilidades</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneradorInfectados.cpp">
+      <Filter>Archivos de código fuente\entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="GestorEntidadesJuego.cpp">
+      <Filter>Archivos de código fuente\entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="EscritorFicheros.cpp">
+      <Filter>Archivos de código fuente\utilidades</Filter>
+    </ClCompile>
+    <ClCompile Include="ArbolDecisionEstadoPrueba.cpp">
+      <Filter>Archivos de código fuente\arbolDecision</Filter>
+    </ClCompile>
+    <ClCompile Include="Infectado2.cpp">
+      <Filter>Archivos de código fuente\arbolDecision</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaMenuPrincipal.cpp">
+      <Filter>Archivos de código fuente\escenas</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Archivos de código fuente\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Archivos de código fuente\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Arma.cpp">
+      <Filter>Archivos de código fuente\entidades\objetos</Filter>
+    </ClCompile>
+    <ClCompile Include="Consumible.cpp">
+      <Filter>Archivos de código fuente\entidades\objetos</Filter>
+    </ClCompile>
+    <ClCompile Include="Trampa.cpp">
+      <Filter>Archivos de código fuente\entidades\objetos</Filter>
+    </ClCompile>
+    <ClCompile Include="Infectado.cpp">
+      <Filter>Archivos de código fuente\entidades\personajes</Filter>
+    </ClCompile>
+    <ClCompile Include="Protagonista.cpp">
+      <Filter>Archivos de código fuente\entidades\personajes</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuMochila.cpp">
+      <Filter>Archivos de código fuente\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuConstruccion.cpp">
+      <Filter>Archivos de código fuente\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjetoSimple.cpp">
+      <Filter>Archivos de código fuente\entidades\objetos</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneradorObjetos.cpp">
+      <Filter>Archivos de código fuente\generadorObjetos</Filter>
+    </ClCompile>
+    <ClCompile Include="PuntoGeneracionObjetos.cpp">
+      <Filter>Archivos de código fuente\generadorObjetos</Filter>
+    </ClCompile>
+    <ClCompile Include="RaycastColocaTrampa.cpp">
+      <Filter>Archivos de código fuente\utilidades\raycast</Filter>
+    </ClCompile>
+    <ClCompile Include="RaycastVeoJugador.cpp">
+      <Filter>Archivos de código fuente\utilidades\raycast</Filter>
+    </ClCompile>
+    <ClCompile Include="RaycastVeoPosicion.cpp">
+      <Filter>Archivos de código fuente\utilidades\raycast</Filter>
+    </ClCompile>
+    <ClCompile Include="LanzadorRayCast.cpp">
+      <Filter>Archivos de código fuente\utilidades\raycast</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaCreditos.cpp">
+      <Filter>Archivos de código fuente\escenas</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaOpciones.cpp">
+      <Filter>Archivos de código fuente\escenas</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuOpciones.cpp">
+      <Filter>Archivos de código fuente\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaGameOver.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Escena.h">
+      <Filter>Archivos de encabezado\escenas</Filter>
+    </ClInclude>
+    <ClInclude Include="GestorEscenas.h">
+      <Filter>Archivos de encabezado\escenas</Filter>
+    </ClInclude>
+    <ClInclude Include="Publicador.h">
+      <Filter>Archivos de encabezado\patron observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Suscriptor.h">
+      <Filter>Archivos de encabezado\patron observer</Filter>
+    </ClInclude>
+    <ClInclude Include="FachadaMotorGrafico.h">
+      <Filter>Archivos de encabezado\utilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="GestorEventosEntrada.h">
+      <Filter>Archivos de encabezado\utilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Reloj.h">
+      <Filter>Archivos de encabezado\utilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Constantes.h">
+      <Filter>Archivos de encabezado\utilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaConEntidad.h">
+      <Filter>Archivos de encabezado\escenas</Filter>
+    </ClInclude>
+    <ClInclude Include="FachadaMotorFisico.h">
+      <Filter>Archivos de encabezado\utilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Mochila.h">
+      <Filter>Archivos de encabezado\entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="EntidadInteractuable.h">
+      <Filter>Archivos de encabezado\entidades\entidadNoFinal</Filter>
+    </ClInclude>
+    <ClInclude Include="EntidadInterpolable.h">
+      <Filter>Archivos de encabezado\entidades\entidadNoFinal</Filter>
+    </ClInclude>
+    <ClInclude Include="EntidadJuego.h">
+      <Filter>Archivos de encabezado\entidades\entidadNoFinal</Filter>
+    </ClInclude>
+    <ClInclude Include="Objeto.h">
+      <Filter>Archivos de encabezado\entidades\entidadNoFinal</Filter>
+    </ClInclude>
+    <ClInclude Include="Estado.h">
+      <Filter>Archivos de encabezado\mef</Filter>
+    </ClInclude>
+    <ClInclude Include="Estado_Alerta.h">
+      <Filter>Archivos de encabezado\mef</Filter>
+    </ClInclude>
+    <ClInclude Include="Estado_Ataque.h">
+      <Filter>Archivos de encabezado\mef</Filter>
+    </ClInclude>
+    <ClInclude Include="Estado_Exploracion.h">
+      <Filter>Archivos de encabezado\mef</Filter>
+    </ClInclude>
+    <ClInclude Include="Estado_Global.h">
+      <Filter>Archivos de encabezado\mef</Filter>
+    </ClInclude>
+    <ClInclude Include="Estado_Grupo.h">
+      <Filter>Archivos de encabezado\mef</Filter>
+    </ClInclude>
+    <ClInclude Include="Estado_Huir.h">
+      <Filter>Archivos de encabezado\mef</Filter>
+    </ClInclude>
+    <ClInclude Include="MaquinaEstadosFinita.h">
+      <Filter>Archivos de encabezado\mef</Filter>
+    </ClInclude>
+    <ClInclude Include="Grafo.h">
+      <Filter>Archivos de encabezado\planificadorCaminos</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodo.h">
+      <Filter>Archivos de encabezado\planificadorCaminos</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanificadorCaminos.h">
+      <Filter>Archivos de encabezado\planificadorCaminos</Filter>
+    </ClInclude>
+    <ClInclude Include="CreadorMapa.h">
+      <Filter>Archivos de encabezado\utilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneradorInfectados.h">
+      <Filter>Archivos de encabezado\entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="GestorEntidadesJuego.h">
+      <Filter>Archivos de encabezado\entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="EscritorFicheros.h">
+      <Filter>Archivos de encabezado\utilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbolDecisionEstadoPrueba.h">
+      <Filter>Archivos de encabezado\arbolDecision</Filter>
+    </ClInclude>
+    <ClInclude Include="Decision.h">
+      <Filter>Archivos de encabezado\arbolDecision</Filter>
+    </ClInclude>
+    <ClInclude Include="Infectado2.h">
+      <Filter>Archivos de encabezado\arbolDecision</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaAccionesConcretas.h">
+      <Filter>Archivos de encabezado\arbolDecision</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaDecisionesConcretas.h">
+      <Filter>Archivos de encabezado\arbolDecision</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoArbolDecision.h">
+      <Filter>Archivos de encabezado\arbolDecision</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaMenuPrincipal.h">
+      <Filter>Archivos de encabezado\escenas</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Archivos de encabezado\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Archivos de encabezado\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Arma.h">
+      <Filter>Archivos de encabezado\entidades\objetos</Filter>
+    </ClInclude>
+    <ClInclude Include="Infectado.h">
+      <Filter>Archivos de encabezado\entidades\personajes</Filter>
+    </ClInclude>
+    <ClInclude Include="Protagonista.h">
+      <Filter>Archivos de encabezado\entidades\personajes</Filter>
+    </ClInclude>
+    <ClInclude Include="Trampa.h">
+      <Filter>Archivos de encabezado\entidades\objetos</Filter>
+    </ClInclude>
+    <ClInclude Include="Consumible.h">
+      <Filter>Archivos de encabezado\entidades\objetos</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuMochila.h">
+      <Filter>Archivos de encabezado\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuConstruccion.h">
+      <Filter>Archivos de encabezado\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Crafteos.h">
+      <Filter>Archivos de código fuente\utilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjetoSimple.h">
+      <Filter>Archivos de encabezado\entidades\objetos</Filter>
+    </ClInclude>
+    <ClInclude Include="PuntoGeneracionObjetos.h">
+      <Filter>Archivos de encabezado\generadorObjetos</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneradorObjetos.h">
+      <Filter>Archivos de encabezado\generadorObjetos</Filter>
+    </ClInclude>
+    <ClInclude Include="RaycastColocaTrampa.h">
+      <Filter>Archivos de encabezado\utilidades\raycast</Filter>
+    </ClInclude>
+    <ClInclude Include="RaycastVeoJugador.h">
+      <Filter>Archivos de encabezado\utilidades\raycast</Filter>
+    </ClInclude>
+    <ClInclude Include="RaycastVeoPosicion.h">
+      <Filter>Archivos de encabezado\utilidades\raycast</Filter>
+    </ClInclude>
+    <ClInclude Include="LanzadorRayCast.h">
+      <Filter>Archivos de encabezado\utilidades\raycast</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuOpciones.h">
+      <Filter>Archivos de encabezado\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaCreditos.h">
+      <Filter>Archivos de encabezado\escenas</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaOpciones.h">
+      <Filter>Archivos de encabezado\escenas</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaGameOver.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\mapas\mapa1.txt">
+      <Filter>assets</Filter>
+    </Text>
+    <Text Include="assets\mapas\mapa2.txt">
+      <Filter>assets</Filter>
+    </Text>
+    <Text Include="assets\mapas\mapaArreglado.txt">
+      <Filter>assets</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
